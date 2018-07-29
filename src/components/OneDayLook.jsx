@@ -1,5 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {
+    BrowserRouter as Router,
+    Route,
+    Link
+  } from 'react-router-dom'
 
 export default class OneDayLook extends React.Component {
     constructor(props) {
@@ -93,7 +98,7 @@ export default class OneDayLook extends React.Component {
                                     <p>Min Temp: 36</p>
                                 </div>
                             </div>
-                            <a href="#" className="btn btn-primary">Hour</a>
+                            {/* <Link to="/hourforecast" className="btn btn-primary">Hour</Link> */}
                         </div>
                     </div>
                 </div>
